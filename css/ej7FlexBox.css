@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, aside, main, footer {
+    margin: 1%;
+}
+#container{
+    width: 100%;
+    overflow: hidden;
+    min-width: 60%;
+    max-width: 150%;
+}
+header{
+    height: 5%;
+}
+main{
+    /*float: right;*/
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+    height: 830px;
+}
+aside{
+    clear: left;
+    float: left;
+    width: 25.5%;
+    height: 150px;
+    overflow: auto;
+}
+footer{
+    clear: both;
+    bottom: 0;
+    width: 96%;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+section{
+    margin: 1%;
+    height: 40%;
+    width: 31%;
+    float: left;
+}
+h2{
+    margin: 2%;
+}
+#primeroYtercero{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: rgb(187, 238, 247);
+}
